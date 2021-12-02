@@ -6,10 +6,10 @@ using System.Windows.Forms;
 
 namespace PDF_Reader
 {
-    internal static class Program
+    static class Program
     {
         /// <summary>
-        /// Главная точка входа для приложения.
+        /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
