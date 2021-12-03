@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{68F8FA36-C511-4844-AFC6-2EF2ACFFA7F5}</ProjectGuid>
+    <ProjectGuid>{CED59018-6004-456E-8E87-7F7EE7885EB6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WinBackgroundWorker</RootNamespace>
-    <AssemblyName>WinBackgroundWorker</AssemblyName>
+    <RootNamespace>WinAsynchMethod</RootNamespace>
+    <AssemblyName>WinAsynchMethod</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
