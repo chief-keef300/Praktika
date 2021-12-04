@@ -33,7 +33,7 @@ namespace WinAsynchMethod
 
         private void btnWork_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Работа кипит!!!");
+            MessageBox.Show("Работаем!");
         }
 
         private void btnRun_Click(object sender, System.EventArgs e)
